@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fcfbf7;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #2c251f;
+    padding: 10px;
+    position: relative;
+}
+
+.header a {
+    color: #f9f7f7;
+    text-decoration: none;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.header a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    bottom: -2px;
+    left: 0;
+}
+
+.close-btn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    color: #fdfcfd;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: rgb(185, 183, 183)
+}
+
+#navbarNav ul li a {
+    font-weight: 600;
+}
+
+.search {
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+.fa-user {
+    font-size: 25px;
+}
+
+.fa-basket-shopping {
+    font-size: 20px;
+}
+
+#navbarNav ul li a .badge {
+    background-color: #986903;
+}
+
+.footer {
+    background-color: #3c392b;
+    color: #fffffd;
+}
+
+.small-heading {
+    display: block;
+    margin-bottom: 1.125rem;
+    color: #986903;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.heading a {
+    text-decoration: none;
+    color: #2c251f;
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease;
+}
+
+.heading a:hover {
+    color: #986903;
+}
+
+.description p {
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #605c4f;
+}
+
+.button {
+    margin-top: 0.75rem;
+    text-align: center;
+}
+
+.button .btn {
+    background-color: #986903;
+    color: white;
+    border-radius: 20px;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+
+.footer .links a {
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    margin-bottom: 1.625rem;
+}
+
+.footer .links a:hover {
+    transition: color 0.3s ease;
+    color: #986903
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(247, 245, 245);
+    background: none;
+}
+
+.social .btn {
+    background-color: white;
+    margin-right: 15px;
+}
+
+.footer img {
+    margin-top: 80px;
+}
+
+.contact button {
+    background-color: #c6922c;
+    position: relative;
+    top: 80%;
+    color: black;
+}
+
+.contact button:hover {
+    background-color: #e6b31e;
+    color: black;
+}
+
+.help .contact h5 {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer .privacy-links a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fdfcfd;
+    margin-right: 30px;
+}
+
+.footer .privacy-links a:hover {
+    color: #986903;
+}
+
+.carousel button {
+    border: solid 2px #a05e47;
+    color: #a05e47;
+}
+
+.image-container {
+    max-height: 100%;
+    width: auto;
+}
+
+.carousel .find {
+    border: solid 2px #11100f;
+    border-radius: 30px;
+    color: #11100f;
+}
+
+.carousel .find:hover {
+    background-color: #605c4f;
+    color: white;
+}
+
+.explore h2,
+h4 {
+    text-align: center;
+    font-size: 1.875rem;
+    margin-top: 1.5rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+}
+
+.sparkling {
+    border-radius: 50%;
+}
+
+.selections {
+    background-color: #2c251f;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    width: 550px;
+}
+
+.merlet {
+    background-color: #efece5;
+    color: #2c251f;
+    text-align: center;
+    max-width: 100%;
+    width: 550px;
+}
+
+.header-eyebrow {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 1.125rem;
+    margin-top: 20px;
+}
+
+#explore {
+    border-radius: 50px;
+    background-color: #f9f7f7;
+    color: #11100f;
+}
+
+#explore:hover {
+    background-color: #d89466;
+}
+
+#merletbtn {
+    background-color: #11100f;
+    color: #f9f7f7;
+    border-radius: 50px;
+}
+
+#merletbtn:hover {
+    background-color: #ccc;
+}
+
+.imagebox {
+    max-width: 100%;
+    height: auto;
+}
+
+.klipsun {
+    background-color: #2c251f;
+    color: white;
+}
+
+.klipsun h1 {
+    font-family: "Playfair Display", serif;
+}
+
+.klipsun p {
+    font-family: "Montserrat", sans-serif;
+}
+
+.klipsun.content {
+    font-family: "Montserrat", sans-serif;
+}
+
+#klipsonbtn {
+    background-color: #c6922c;
+    border-radius: 50px;
+}
+
+.card {
+    background-color: #efece5;
+}
+
+/* .col-lg-3 img {
+    display: block;
+    margin-bottom: 15px; 
+} */
+#reward {
+    text-decoration: underline;
+    color: #e6b31e;
+}
+
+.grapeimgbtn {
+    background-color: #2c251f;
+    color: white;
+    border-radius: 50px;
+}
+
+.grapeimgbtn:hover {
+    background-color: #6d6c6c;
+    color: black
+}
+
+.vines span p {
+    color: #c08609;
+    font-weight: 400;
+}
+
+.merlet .header-eyebrow {
+    color: #c6922c;
+}
+
+/* .vine{
+    background-color:#d1caca ;
+    width: 300px;
+    height: 100px;
+} */
+
+@media only screen and (max-width: 768px) {
+    .footer .links {
+        display: none;
+    }
+
+    .logofooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        /* adjust height as needed */
+    }
+
+    .logofooter img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .klipsun {
+        text-align: center;
+    }
+
+    .content {
+        width: 25%;
+        margin: 0 auto;
+        /* This centers the div horizontally */
+        text-align: center;
+        /* This centers the text inside the div */
+    }
+
+    .form {
+        width: 300px;
+    }
+
+    .footer-bottom ul li {
+        display: inline;
+        margin: 0 auto;
+        /* This centers the div horizontally */
+        text-align: center;
+        /* This centers the text inside the div */
+    }
+
+}
